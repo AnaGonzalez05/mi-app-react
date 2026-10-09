@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="container hero__content">
-        <p className="eyebrow">Angely Motors · Costa Rica</p>
+        <p className="eyebrow">Ana Motors · Costa Rica</p>
 
         <h1 className="hero__title">El auto que mueve sus planes</h1>
 

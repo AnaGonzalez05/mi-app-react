@@ -1,8 +1,9 @@
 .navbar {
-  background-color: #14213d;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #2e2e2e;
   padding: 1rem 0;
 }
-
+ 
 /* Móvil: logo arriba y enlaces debajo */
 .navbar__inner {
   display: flex;
@@ -10,12 +11,12 @@
   align-items: center;
   gap: 1rem;
 }
-
+ 
 .navbar__links {
   display: flex;
   gap: 1.5rem;
 }
-
+ 
 .navbar__links a {
   color: #e5e5e5;
   font-weight: 500;
@@ -23,17 +24,17 @@
   border-bottom: 2px solid transparent;
   transition: color 0.5s, border-color 0.5s;
 }
-
+ 
 .navbar__links a:hover {
-  color: #fca311;
+  color: #ff4da6;
 }
-
+ 
 /* Clase que agrega NavLink al enlace de la página actual */
 .navbar__links a.active {
-  color: #fca311;
-  border-bottom-color: #fca311;
+  color: #ff4da6;
+  border-bottom-color: #ff4da6;
 }
-
+ 
 /* Tablet y desktop: todo en una sola fila */
 @media (min-width: 768px) {
   .navbar__inner {

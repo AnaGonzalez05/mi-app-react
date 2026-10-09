@@ -1,42 +1,59 @@
+ntactform · CSS
 .contact-form {
   padding: 2rem;
+  border: 1px solid #2e2e2e;
   border-radius: 16px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #1a1a1a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
-
+ 
 /* Estilos de los campos (para cuando se agreguen) */
 .contact-form label {
   display: block;
   margin-bottom: 5px;
-  color: #14213d;
+  color: #ffffff;
   font-weight: 500;
 }
-
+ 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: 10px;
-  border: 1px solid #ced4da;
+  border: 1px solid #2e2e2e;
   border-radius: 10px;
+  background-color: #0d0d0d;
+  color: #ffffff;
   font-family: "Poppins", Arial, sans-serif;
+  transition: border-color 0.5s;
 }
-
+ 
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ff4da6;
+}
+ 
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #b3b3b3;
+}
+ 
 .contact-form input[type="submit"] {
   padding: 10px 20px;
   border: none;
   border-radius: 30px;
-  background-color: #fca311;
-  color: #14213d;
+  background-color: #ff4da6;
+  color: #0d0d0d;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s;
 }
-
+ 
 .contact-form input[type="submit"]:hover {
-  background-color: #d97706;
+  background-color: #e0207f;
   color: #ffffff;
 }

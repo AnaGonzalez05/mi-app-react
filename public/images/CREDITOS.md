@@ -4,8 +4,9 @@ Todas las fotos son de [Unsplash](https://unsplash.com) y se usan bajo la [Licen
 
 | Archivo | Autor | Foto original |
 |---|---|---|
-| `suv.jpg` | Sven D | https://unsplash.com/photos/a4S6KUuLeoM |
-| `sedan.jpg` | Ajoy Joseph | https://unsplash.com/photos/KnbwsTb72U8 |
-| `deportivo.jpg` | Laurent Perren | https://unsplash.com/photos/NeH9w4CdmnA |
-| `electrico.jpg` | Bram Van Oost | https://unsplash.com/photos/W8IvFdsKsl8 |
-| `sport.jpg` | Joshua Koblin | https://unsplash.com/photos/eqW1MPinEV4 |
+| `suv.jpg` | Quilia | https://unsplash.com/photos/yDekvyZ52dU |
+| `sedan.jpg` | Praswin Prakashan | https://unsplash.com/photos/dGsf8Y0n2d0 |
+| `deportivo.jpg` | Ognjen Radoman | https://unsplash.com/photos/cdIisA5bhPA |
+| `electrico.jpg` | Sentry Labs | https://unsplash.com/photos/K1xnHnEFB5Y |
+| `sport.jpg` | Miko Rohat | https://unsplash.com/photos/tB11NbRJqGg |
+ 

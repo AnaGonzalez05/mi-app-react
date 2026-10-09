@@ -1,121 +1,133 @@
+Index · CSS
 /* =========================================================
-   Estilos globales de Angely Motors
-   Paleta de colores:
-   - Azul oscuro (principal): #14213d
-   - Naranja (acento):        #fca311
-   - Naranja oscuro (links):  #d97706
-   - Gris claro (fondo):      #f5f6f8
-   - Gris (texto secundario): #6c757d
+   Estilos globales de Ana Motors
+   Paleta de colores (negro, rosado y blanco):
+   - Negro (fondo):            #0d0d0d
+   - Negro suave (tarjetas):   #1a1a1a
+   - Rosado (acento):          #ff4da6
+   - Rosado oscuro (hover):    #e0207f
+   - Blanco (texto):           #ffffff
+   - Gris claro (secundario):  #b3b3b3
    ========================================================= */
-
+ 
+:root {
+  --color-fondo: #0d0d0d;
+  --color-superficie: #1a1a1a;
+  --color-acento: #ff4da6;
+  --color-acento-oscuro: #e0207f;
+  --color-texto: #ffffff;
+  --color-texto-secundario: #b3b3b3;
+  --color-borde: #2e2e2e;
+}
+ 
 /* Reset CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 html {
   font-size: 16px;
 }
-
+ 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background-color: #f5f6f8;
-  color: #2b2d42;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
   line-height: 1.6;
 }
-
+ 
 /* El footer siempre queda abajo aunque la página tenga poco contenido */
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
+ 
 h1,
 h2,
 h3 {
-  color: #14213d;
+  color: var(--color-texto);
   line-height: 1.2;
 }
-
+ 
 img {
   display: block;
   width: 100%;
 }
-
+ 
 a {
   text-decoration: none;
 }
-
+ 
 /* Contenedor que centra el contenido de cada sección */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
-
+ 
 /* Texto pequeño que va encima de los títulos */
 .eyebrow {
-  color: #fca311;
+  color: var(--color-acento);
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
+ 
 /* Enlace de texto con color de acento */
 .text-link {
-  color: #d97706;
+  color: var(--color-acento);
   font-weight: 600;
   transition: color 0.5s;
 }
-
+ 
 .text-link:hover {
-  color: #14213d;
+  color: var(--color-texto);
 }
-
+ 
 /* Botones */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border: 2px solid #fca311;
+  border: 2px solid var(--color-acento);
   border-radius: 30px;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
-
+ 
 .btn--primary {
-  background-color: #fca311;
-  color: #14213d;
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
 }
-
+ 
 .btn--primary:hover {
-  background-color: #d97706;
-  border-color: #d97706;
-  color: #ffffff;
+  background-color: var(--color-acento-oscuro);
+  border-color: var(--color-acento-oscuro);
+  color: var(--color-texto);
 }
-
-/* Para fondos oscuros */
+ 
+/* Borde y texto blancos */
 .btn--light {
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: var(--color-texto);
+  color: var(--color-texto);
 }
-
+ 
 .btn--light:hover {
-  background-color: #ffffff;
-  color: #14213d;
+  background-color: var(--color-texto);
+  color: var(--color-fondo);
 }
-
-/* Para fondos claros */
+ 
+/* Borde y texto rosados */
 .btn--dark {
-  border-color: #14213d;
-  color: #14213d;
+  border-color: var(--color-acento);
+  color: var(--color-acento);
 }
-
+ 
 .btn--dark:hover {
-  background-color: #14213d;
-  color: #ffffff;
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
 }

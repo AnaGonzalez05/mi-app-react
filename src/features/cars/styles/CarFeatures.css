@@ -15,7 +15,6 @@
 }
 
 .car-features li::before {
-  content: "✓ ";
-  color: #fca311;
+  color: #ff69d2;
   font-weight: 700;
 }

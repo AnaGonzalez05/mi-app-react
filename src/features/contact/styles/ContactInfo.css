@@ -4,11 +4,11 @@
   gap: 1rem;
   padding: 2rem;
   border-radius: 16px;
-  background-color: #14213d;
+  background-color: #0d0d0d;
   color: #e5e5e5;
 }
 
 /* .contact-info h3 le gana al h3 global por especificidad */
 .contact-info h3 {
-  color: #fca311;
+  color: #e0207f;
 }

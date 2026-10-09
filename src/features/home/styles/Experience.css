@@ -1,9 +1,12 @@
 .experience {
-  background-color: #ffffff;
+  background-color: #1a1a1a;
+  border-top: 1px solid #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+  color: #ffffff;
   margin-top: 3rem;
   padding: 3rem 0;
 }
-
+ 
 /* Móvil: imagen arriba y texto debajo */
 .experience__grid {
   display: grid;
@@ -11,54 +14,73 @@
   align-items: center;
   gap: 2rem;
 }
-
+ 
 .experience__image {
   height: 250px;
   border-radius: 16px;
-  background-color: #14213d;
+  background-color: #0d0d0d;
   background-image: url("/images/suv.jpg");
   background-size: cover;
   background-position: center;
 }
-
+ 
 .experience__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
 }
-
+ 
+.experience .eyebrow {
+  color: #ff4da6;
+}
+ 
 .experience__title {
+  color: #ffffff;
   font-size: 1.75rem;
 }
-
+ 
 .experience__text {
-  color: #6c757d;
+  color: #b3b3b3;
 }
-
+ 
 .check-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-
+ 
+.check-list li {
+  color: #ffffff;
+}
+ 
 .check-list li::before {
   content: "✓ ";
-  color: #fca311;
+  color: #ff4da6;
   font-weight: 700;
 }
-
+ 
+.experience a {
+  color: #ff4da6;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+ 
+.experience a:hover {
+  color: #ffffff;
+}
+ 
 /* Tablet y desktop: imagen y texto lado a lado */
 @media (min-width: 768px) {
   .experience__grid {
     grid-template-columns: 1fr 1fr;
   }
-
+ 
   .experience__image {
     height: 350px;
   }
-
+ 
   .experience__title {
     font-size: 2.25rem;
   }

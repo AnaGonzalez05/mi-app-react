@@ -6,21 +6,22 @@
   gap: 0.5rem;
   padding: 2rem 0;
 }
-
+ 
 /* Botones de página (para cuando se agreguen) */
 .pagination button {
   width: 40px;
   height: 40px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #2e2e2e;
   border-radius: 50%;
-  background-color: #ffffff;
-  color: #14213d;
+  background-color: #1a1a1a;
+  color: #ffffff;
   font-family: "Poppins", Arial, sans-serif;
   cursor: pointer;
-  transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
-
+ 
 .pagination button:hover {
-  background-color: #14213d;
-  color: #ffffff;
+  background-color: #ff4da6;
+  border-color: #ff4da6;
+  color: #0d0d0d;
 }
